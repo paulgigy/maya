@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	font-size:180%;
+	margin:0px;
+	font-weight:normal;
+}
+h2{
+	font-size:240%;
+	font-weight:lighter;
+}
+h3{
+	font-size:30px;
+	margin-top30px;
+	font-weight:lighter;
+	color:#999;
+}
+h4{
+	font-size:200%;
+	font-weight:lighter;
+	color:#FFF;
+}
+.text,.password {
+	text-indent: 2px;
+    padding: 4px;
+    float: left;
+    height: 25px;
+    width: 340px;
+    font-size: 13px;
+    color: #444444;
+    background-color:#FFF);
+	border-radius:2px;
+    border: 1px solid #A59C95;
+    border-left: 1px solid #C8C1BC;
+    border-bottom: 1px solid #C8C1BC;
+}
+.submitA{
+    background-color:#06a7f2;
+	border:thin solid #53ace4;
+    height: 40px;
+	border-radius:2px;
+	color:#FFF;
+	text-align:center;
+}
+.submitA:hover {
+	background-color:#3eb8f1;
+	cursor:pointer;
+}
+
+
+.log-panel-box{
+	width: 350px;
+	float: left;
+	height: auto;
+	float: right;
+	margin-top: 40px;
+	padding-bottom: 5px;
+}
+.log-boxes{
+	float: left;
+	margin-top: 0px;
+	width: 350px;
+	height: auto;
+	text-align: justify;
+}
+.log-box-small-strip{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 50px;
+}
+.log-box-small-strip a{
+	color: blue;
+	text-decoration: none;
+}
+.log-boxes form p.remember {
+    padding-top: 15px;
+}
+.log-boxes form a{
+	text-decoration: none;
+	color: blue;
+}
+.log-boxes form a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+.reg-panel-box{
+	width: 350px;
+	float: left;
+	height: auto;
+	float: right;
+	margin-top: 0px;
+	padding-bottom: 5px;
+}

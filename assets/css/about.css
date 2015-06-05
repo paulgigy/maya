@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+.about_content{
+	margin:auto;
+	height:auto;
+	width:1100px;
+}
+.about_cover_top{
+	width:1100px;
+	background-image:url(../bg_images/about_us_page.png);
+	background-repeat:no-repeat;
+	height:250px;
+	float:left;
+}
+.about_intro{
+	height:250px;
+	width:100%;
+	float:right;
+	background: -moz-linear-gradient(to left,#FFF, rgba(250,250,250,1), rgba(250,250,250,.4) );
+	background: -webkit-linear-gradient(to left,#FFF, rgba(250,250,250,1), rgba(250,250,250,.4) );
+	background: -ms-linear-gradient(to left,#FFF, rgba(250,250,250,1), rgba(250,250,250,.4) );
+	background: -o-linear-gradient(to left,#FFF, rgba(250,250,250,1), rgba(250,250,250,.4) );
+}
+.about_intro_text{
+	width:750px;
+	height:250px;
+	float:right;
+	text-align:justify;
+}
+.about_strip{
+	width:100%;
+	height: 50px;
+	margin-top: 150px;
+	color:white;
+	float: left;
+	text-align:center;
+	background-color: rgba(0,0,0,.60);
+}
+.about_cover_bottom{
+	width: 1100px;
+	margin-top:5px;
+	float:left;
+	height: 500px;
+}
+.about_classA{
+	width:302px;
+	height:400px;
+	float:left;
+	margin-top:10px;
+	background-color:#999;
+}
+.about_classB{
+	width:302px;
+	height:400px;
+	float:left;
+	margin-left:147px;
+	margin-top:10px;
+	background-color:#999;
+}

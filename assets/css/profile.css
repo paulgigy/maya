@@ -1,0 +1,43 @@
+
+.profile-strip{
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+	height: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: magenta;
+}
+.personal-details{
+	float: left;
+	height: 300px;
+	width: 400px;
+	background-color: aqua;
+}
+.personal-details-text{
+	width: 240px;
+	height: auto;
+	margin-top: 5px;
+	float: right;
+	border: thin solid #00a460;
+}
+.profile-pic{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 0px;
+	color: brown;
+	border: thin solid black;
+}
+.profile-text{
+    padding: 4px;
+    width: 230px;
+    height: 24px;
+    font-size: 13px;
+    color: #444444;
+    background-color:rgba(255, 255, 255, 0.70);
+    border: 1px solid #A59C95;
+    border-left: 1px solid #C8C1BC;
+    border-bottom: 1px solid #C8C1BC;
+}

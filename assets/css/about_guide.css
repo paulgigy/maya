@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.guide_links{
+	float:left;
+	margin-top:0px;
+	height:100%;
+	background-color:#f8fbff;
+	width:300px;
+	text-transform:uppercase;
+}
+.head_strip{
+	height:20px;
+	width:100%;
+	float:left;
+	text-transform:uppercase;
+	font-size:17px;
+	color:#3eb8f1;
+	padding-bottom:5px;
+	padding-top:5px;
+	background-color:#f8fbff;
+	border-bottom:thin dotted #3eb8f1;
+	text-indent:20px;
+}
+
+#bigslider{
+	float:right;
+	margin-top:0px;
+	height:100%;
+	width:780px;
+	margin-left:0px;
+	overflow:hidden;
+	background-color:#f8fbff;
+}
+
+#content {
+	width: 4440px;
+	height: 100%;	
+	overflow: hidden;
+	display:block;
+}
+
+#content #pages {
+	width: 4440px;
+	height: 100%;
+}
+
+#content #pages .page {
+	float: left;
+	width: 780px;
+	height: 100%;
+	text-align:justify;
+
+}
+
+.strip1{
+	width:100%;
+	height:25px;
+	float:left;
+	background-color:#f8fbff;
+	border-bottom:thin dotted #3eb8f1;
+	color:#3eb8f1;
+	padding-top:5px;
+	text-align:center;
+	text-transform:uppercase;
+}
+ .guide_links ul{
+	 background-color:#f0f0f0;
+	 width:100%;	 
+ }
+ .guide_links ul li{
+	 float:none;
+	 border-bottom:thin dotted #3eb8f1;
+	 border-right:thin dotted #3eb8f1;
+
+ }
+  .guide_links ul li a{
+	 text-align:left;
+	 color:#000;
+ }
+   .guide_links ul li a:hover{
+	 color:#3eb8f1;	
+	 background-color:#FFF; 
+ }

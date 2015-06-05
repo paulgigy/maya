@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news_cover{
+	width:1100px;
+	margin:auto;
+	height:650px;
+	padding-top:0px;
+}
+.news_coverA{
+	float:left;
+	height:100%;
+	width:705px;
+}
+.news_coverB{
+	float:left;
+	margin-left:5px;
+	height:100%;
+	width:390px;
+}
+
+.news_strip{
+	width:100%;
+	height:25px;
+	float:left;
+	margin-top:0px;
+	background-color:#FFF;
+	color:#09F;
+}
+.big_news_thumbA{
+	float:left;
+	margin-left:0px;
+	width:350px;
+	height:300px;
+}
+.big_news_thumbB{
+	float:left;
+	margin-left:5px;
+	width:350px;
+	height:300px;
+}
+.big_news_thumbC{
+	float:left;
+	margin-left:0px;
+	width:390px;
+	height:300px;
+}
+.news_picture_thumb{
+	width:100%;
+	height:200px;
+	float:left;
+}
+.news_picture_thumb_img{
+	width:100%;
+	height:170px;
+	float:left;
+}
+.news_picture_thumb_topic{
+	width:100%;
+	height:25px;
+	color: white;
+	background-color:rgba(0,0,0,0.7);
+	float:left;
+	margin-top:2px;
+	font-weight:bold;
+}
+.news_text_thumb{
+	float:left;
+	margin-top:2px;
+	height:85px;
+	width:100%;
+	text-align:justify;
+	font-size:14px;
+	background-color: #FFF;
+}
+.news_text_thumb_snippet{
+	float:left;
+	margin-left:3%;
+	height:58px;
+	width:97%;
+	background-color: rgba(255,255,255,0.70);
+}
+.news_text_thumb_more{
+	float:left;
+	margin-left:0px;
+	height:20px;
+	margin-top:3px;
+	width:100%;
+	text-transform:uppercase;
+	font-weight:400;
+	background-color: #FFF;
+	border-top:dashed #999 thin;
+}
+
+
+.news_thumb_sub-topics{
+	width: 100%;
+	height: 300px;
+	float: left;
+	margin-top: 2px;
+	overflow: auto;
+	border-bottom: thin solid #ccc;
+}
+.featured-article-main-class{
+	width: 100%;
+	height: 80px;
+	float: left;
+	margin-top: 5px;
+	border-bottom: dashed thin #00a460;
+}
+.featured-article-sub-class{
+	width: 100%;
+	height: 75px;
+	float: left;
+}
+.featured-article-thumb{
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-left: 0px;
+}
+.featured-article-topic{
+	height: 25px;
+	width: 600px;
+	float: left;
+	margin-left: 10px;
+	color:#09F; 
+	text-transform: uppercase;
+}
+.featured-article-text{
+	height: 45px;
+	width: 600px;
+	float: left;
+	margin-top: 5px;
+	margin-left:10px;
+	font-size: 15px;
+	text-align: justify;
+}

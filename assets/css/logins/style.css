@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Segoe UI' !important;
+    src: url('../../fonts/segoeui.ttf') format('truetype');
+    src: url('../../fonts/Segoe/segoeuil.ttf') format('truetype');
+    src: url('../../fonts/Segoe/SEGOEUISL.TTF') format('truetype');
+}
+
+
+html, body{
+	min-height:100%;
+	height:100%;
+	overflow:hidden;
+	margin:0;
+	background-attachment:fixed;
+	font-family: 'Segoe UI' !important;
+}
+.hero{
+	width:100%;
+	background-image:url(../../bg_images/slider_deals.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:inline-block;
+	z-index:900;
+	height:100%;
+	min-height:100%;
+}
+.header{
+	background-color: rgba(0,0,0,0.75);
+	transform-style: preserve-3d;
+	left: 0px;
+	padding-bottom: 0.25em;
+	position: fixed;
+	text-align: right;
+	top: 0px;
+	width: 100%;
+	height:60px;
+	z-index: 1200;
+}
+.logo{
+	width:1100px;
+	padding-bottom: 0.25em;
+	top:0;
+	height:60px;
+	margin:auto;
+	text-align:left;
+	z-index: 1000;
+}
+.in_logo{
+	width:auto;
+	height:auto;
+	float:left;
+	text-align:left;
+	margin-top:1%;
+	color:#3eb8f1;
+	z-index: 1000;
+}
+
+.wrapper{
+	transform-style: preserve-3d;
+	margin:auto;
+	margin-top:5.5%;
+	width:950px;
+	height:80%;
+	z-index:900;
+}
+.submit{
+    background-color:#06a7f2;
+	border:thin solid #53ace4;
+    height: 35px;
+	border-radius:2px;
+	color:#FFF;
+	background-color: white;
+	text-align:right;
+}
+.submit:hover {
+	color:#3eb8f1;
+	cursor:pointer;
+}
+.bottom_bar{
+	background-color:#FFF;
+	height:100px;
+	margin-top:0px;
+	float:left;
+	width:100%;
+}
+
+.links{
+	margin-top:0px;
+	height:50px;
+	margin-left:0px;
+	width:500px;
+}
+.copyright{
+	margin-top:0px;
+	float:left;
+	margin-left:0px;
+	width:585px;
+	height:30px;
+}
+.footer{
+	background-color:rgba(0,0,0,.50);
+	bottom:0;
+	height:50px;
+	width:100%;
+	color:white;
+	position:absolute;
+	color:#FFF;
+}
+
+
+
+.log-photo{
+	width: 400px;
+	float: left;
+	height: auto;
+	float: left;
+}
+.log-photo a{
+	color: blue;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.log-photo a:hover{
+	cursor: pointer;
+	text-transform: uppercase;
+	color: white;
+
+}
+.log-photo-thumb{
+	width: 400px;
+	height: auto;
+	float: left;
+}
+.log-photo-strip{
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	text-transform:uppercase;
+	background-color: rgba(0,0,0,.30);
+}
+.log-photo-details-in-text{
+	width: 96%;
+	float: left;margin-left: 2%;
+	height: auto;
+}
+.log-photo-details-text{
+	float: left;
+	margin-top: 10px;
+	width: 400px;
+	color: #FFFFFF;
+	text-align: justify;
+	background-color: #3EB8F1;
+	padding-bottom: 5px;
+}
+
+

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contact_cover{
+	width:1100px;
+	margin:auto;
+	height:450px;
+	padding-top:20px;
+}
+.contact_strip{
+	width:100%;
+	height:50px;
+	float:left;
+	margin-top:0px;
+}
+.contact_classA{
+	float:left;
+	margin-top:20px;
+	margin-left:0px;
+	width:290px;
+	height:270px;
+	
+}
+.contact_classB{
+	float:right;
+	margin-top:20px;
+	margin-right:0px;
+	width:740px;
+	height:350px;
+}
+.contact_demi_button{
+	background-color:#f8fbff;
+	text-align:left;
+	color:#3eb8f1;
+	float:left;
+	height:30px;
+	padding-top:10px;
+	width:200px;
+	margin-top:5px;
+}
