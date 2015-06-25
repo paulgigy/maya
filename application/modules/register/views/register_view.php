@@ -70,20 +70,22 @@
 
             <div class="log-box-small-strip">MAYA account <a href="#"> what's this?</a></div>
                 <div class="log-boxes">
-                    <form>
+                    <form method="POST" enctype="multipart/form-data" action="<?php echo base_url();?>register/registration">
+
                         <input type="text" name="f_name" placeholder="First Name" class="text" required="required" style="margin-top:10px;">
                         <input type="text" name="l_name" placeholder="Last Name" class="text" required="required" style="margin-top:10px;">
-                        <input type="tel" name="phone" placeholder="Phone Number" class="text" required="required" style="margin-top:10px;">
+                        <input type="text" name="phone" placeholder="Phone Number" class="text" required="required" style="margin-top:10px;">
                         <input type="date" name="date_of_reg" placeholder="Date of Registration" class="text" required="required" style="margin-top:10px;">
                         <input type="email" name="username" placeholder="E-Mail: [someone@example.com]" class="text" required="required" style="margin-top:10px;">
                         <input type="password" name="password" placeholder="Password" class="password" required="required" style="margin-top:10px;">
-                        <input type="password" name="password" placeholder="Confirm Password" class="password" required="required" style="margin-top:10px;">
+                        <!-- <input type="password" name="con_password" placeholder="Confirm Password" class="password" required="required" style="margin-top:10px;"> -->
                         
                         <input type="submit" class="submitA" value="Register" style="width:200px; margin-top:15px; font-weight:bold;">
 
                         <br/>
 
                     </form>
+
                 </div>
         </div>
 

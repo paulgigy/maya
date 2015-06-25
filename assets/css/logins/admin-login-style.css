@@ -54,3 +54,11 @@
     float: right;
 
 }
+
+/*facebook and twitter*/
+
+.social-media{
+    width: 50%;
+    float: left;
+    height: auto;
+}

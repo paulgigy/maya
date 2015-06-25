@@ -20,7 +20,7 @@ class admin extends MY_Controller {
 	public function index()
 	{
 		
-		$this->load->view("admin_view");
+		$this->load->view("login");
 	}
 }
 
