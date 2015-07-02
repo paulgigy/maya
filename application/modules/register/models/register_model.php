@@ -41,8 +41,6 @@ function user_registration(){
   $this->db->insert('tbl_user_details',$user_data);
 
   redirect('login');
-
-
 }
 
 }
